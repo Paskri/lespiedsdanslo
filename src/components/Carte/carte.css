@@ -1,0 +1,58 @@
+#carte {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  /*border: 6px outset goldenrod;*/
+  height: auto;
+  padding: 0 15px 25px 15px;
+}
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+.menu-left,
+.menu-right {
+  width: 100%;
+}
+.separator {
+  display: none;
+}
+.separator-content {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: goldenrod;
+}
+.plat-container {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  width: 90%;
+}
+.tarif {
+  width: 10%;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 0;
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  .menu-wrapper {
+    flex-direction: row;
+  }
+  .menu-left,
+  .menu-right {
+    width: 49.5%;
+  }
+  .separator {
+    display: block;
+    width: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,111 @@
+header {
+  position: relative;
+  height: 350px;
+  padding: 30px 0;
+  background: linear-gradient(#666 30%, #ddd 100%);
+}
+h1 {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #fff;
+  color: #0f3d48;
+  line-height: 6rem;
+  padding: 0 10px;
+}
+header span {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 3px #fff;
+}
+header img {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+.menu {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  font-size: 1rem;
+}
+.menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.menu li {
+  z-index: 1;
+}
+.menu a {
+  padding: 7px 15px;
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 5px;
+  color: black;
+}
+.menu a:hover {
+  background-color: #0f3d48;
+  color: white;
+}
+#wave {
+  position: absolute;
+  bottom: -1px;
+}
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 7rem;
+  }
+  header {
+    padding: 50px 0;
+  }
+
+  header span {
+    font-size: 2.8rem;
+  }
+
+  .menu {
+    font-size: 1.3rem;
+    bottom: 30px;
+  }
+
+  .menu a {
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 850px) {
+  h1 {
+    font-size: 7rem;
+  }
+  header span {
+    font-size: 4rem;
+  }
+  header img {
+    height: 600px;
+  }
+  header {
+    height: 600px;
+  }
+  .menu {
+    font-size: 1.8rem;
+    bottom: 100px;
+  }
+}

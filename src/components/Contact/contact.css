@@ -1,0 +1,89 @@
+#contact {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+.contact-wrapper {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+form {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label {
+  font-size: 1.4rem;
+}
+input {
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #0f3d48;
+}
+textarea {
+  border: 1px solid #0f3d48;
+  height: 150px;
+  border-radius: 5px;
+}
+button {
+  width: fit-content;
+  margin: 25px auto;
+  padding: 10px 30px;
+  font-size: 1.4rem;
+  border: 1px solid #0f3d48;
+  border-radius: 5px;
+  background-color: #0f3d48;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}
+button:hover {
+  color: #0f3d48;
+  background-color: white;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: #575757;
+  opacity: 1;
+}
+
+.map {
+  width: 100%;
+  max-width: 1440px;
+}
+.contact-content {
+  position: relative;
+  margin-top: -50px;
+  width: fit-content;
+  height: fit-content;
+  margin: -150px auto 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 2000;
+  padding: 20px 40px 30px;
+  border: 1px solid goldenrod;
+}
+.address-title {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.contact-content p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 850px) {
+  .address-title {
+    font-size: 3rem;
+  }
+}
