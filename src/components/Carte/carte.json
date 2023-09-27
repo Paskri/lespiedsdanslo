@@ -1,0 +1,205 @@
+{
+  "menu": {
+    "antipasti": [
+      {
+        "nom": "Bruschetta al Pomodoro",
+        "description": "Pain grillé frotté à l'ail, garni de tomates fraîches, basilic, et huile d'olive extra vierge.",
+        "prix": 10
+      },
+      {
+        "nom": "Carpaccio di Manzo",
+        "description": "Tranches fines de bœuf, roquette, parmesan, câpres, et vinaigrette à l'huile d'olive.",
+        "prix": 14
+      },
+      {
+        "nom": "Calamari Fritti",
+        "description": "Calmars frits croustillants servis avec une sauce marinara maison.",
+        "prix": 12
+      }
+    ],
+    "primi_piatti": [
+      {
+        "nom": "Risotto ai Funghi Porcini",
+        "description": "Risotto crémeux aux champignons porcini et parmesan.",
+        "prix": 18
+      },
+      {
+        "nom": "Lasagne alla Bolognese",
+        "description": "Lasagnes maison avec sauce bolognaise et béchamel gratinées au four.",
+        "prix": 16
+      },
+      {
+        "nom": "Spaghetti Carbonara",
+        "description": "Spaghetti avec œufs, pancetta, pecorino, et poivre noir.",
+        "prix": 15
+      }
+    ],
+    "secondi_piatti": [
+      {
+        "nom": "Osso Buco alla Milanese",
+        "description": "Jarret de veau braisé, servi avec une gremolata et risotto safrané.",
+        "prix": 26
+      },
+      {
+        "nom": "Saltimbocca alla Romana",
+        "description": "Escalopes de veau avec jambon de Parme, sauge, et vin blanc, accompagnées de purée de pommes de terre.",
+        "prix": 24
+      },
+      {
+        "nom": "Branzino all'Acqua Pazza",
+        "description": "Loup de mer cuit à l'eau folle avec tomates, olives, et câpres.",
+        "prix": 28
+      }
+    ],
+    "contorni": [
+      {
+        "nom": "Insalata Caprese",
+        "description": "Tomates, mozzarella di bufala, basilic, et vinaigrette balsamique.",
+        "prix": 9
+      },
+      {
+        "nom": "Patate al Rosmarino",
+        "description": "Pommes de terre rôties à la rosemary.",
+        "prix": 7
+      },
+      {
+        "nom": "Asparagi Gratinati",
+        "description": "Asperges gratinées au parmesan.",
+        "prix": 10
+      }
+    ],
+    "dolci": [
+      {
+        "nom": "Tiramisù",
+        "description": "Le classique italien avec mascarpone, café, et cacao.",
+        "prix": 8
+      },
+      {
+        "nom": "Panna Cotta",
+        "description": "Crème cuite à la vanille avec coulis de fruits rouges.",
+        "prix": 9
+      },
+      {
+        "nom": "Cannoli Siciliani",
+        "description": "Pâtisseries croustillantes remplies de ricotta sucrée et de pépites de chocolat.",
+        "prix": 10
+      }
+    ],
+    "dolciumi": [
+      {
+        "nom": "Café Gourmand",
+        "description": "Un Café accompagné d'une sélection exquise de pâtisseries maison, pour une expérience caféinée inoubliable.",
+        "prix": 6
+      },
+      {
+        "nom": "Thé Gourmand",
+        "description": "Un Thé accompagné d'une variété de douceurs et de pâtisseries artisanales, pour une dégustation raffinée.",
+        "prix": 6
+      }
+    ]
+  },
+  "boissons": {
+    "Vini": [
+      {
+        "nom": "Chianti Classico",
+        "description": "Un vin Rouge pétillant récolté sous le soleil de Toscane et vinifié par le prestigieux Castello di Brolio.",
+        "prix_bouteille": 30
+      },
+      {
+        "nom": "Barolo",
+        "description": "Un vin Rouge élégant et corsé, symbole du Piémont, avec une personnalité riche et profonde, produit par la renommée Pio Cesare.",
+        "prix_bouteille": 45
+      },
+      {
+        "nom": "Brunello di Montalcino",
+        "description": "Un vin Rouge d'une rare finesse, issu des collines de Toscane et créé avec passion par Banfi.",
+        "prix_bouteille": 40
+      },
+      {
+        "nom": "Amarone della Valpolicella",
+        "description": "Un vin Rouge velouté et intensément fruité, provenant de la Vénétie et méticuleusement élaboré par Masi.",
+        "prix_bouteille": 55
+      },
+      {
+        "nom": "Prosecco",
+        "description": "Un Vin Blanc pétillant exquis, légèrement sucré, venu de la belle région de Vénétie, offert par la maison Valdo.",
+        "prix_bouteille": 28
+      },
+      {
+        "nom": "Gavi di Gavi",
+        "description": "Un Vin Blanc sec et rafraîchissant, cultivé dans les vignobles piémontais et créé avec dévouement par La Scolca.",
+        "prix_bouteille": 36
+      }
+    ],
+    "Cafés": [
+      {
+        "nom": "Espresso",
+        "description": "Un Café fort et aromatique, préparé avec expertise pour une dose de caféine intense et une saveur exceptionnelle.",
+        "prix": 2
+      },
+      {
+        "nom": "Ristretto",
+        "description": "Un Café court et concentré, pour les amateurs de café corsé et robuste, parfait en toute petite dose.",
+        "prix": 2
+      },
+      {
+        "nom": "Cappuccino",
+        "description": "Un Café doux et crémeux, couronné d'une mousse de lait délicate, pour une expérience caféinée tout en douceur.",
+        "prix": 4
+      },
+      {
+        "nom": "Lungo",
+        "description": "Un Café allongé, offrant une tasse généreuse de café noir équilibré en saveur et en intensité.",
+        "prix": 3
+      }
+    ],
+    "Thés": [
+      {
+        "nom": "Thé Vert Sencha",
+        "description": "Un Thé Vert rafraîchissant et revitalisant, offrant une saveur pure et équilibrée, idéal pour les moments de détente.",
+        "prix": 3
+      },
+      {
+        "nom": "Thé Noir Earl Grey",
+        "description": "Un Thé Noir parfumé à la bergamote, pour une expérience aromatique et élégante qui stimule les sens.",
+        "prix": 3
+      },
+      {
+        "nom": "Thé à la Menthe",
+        "description": "Un Thé Vert à la menthe fraîche, pour une boisson vivifiante qui éveille les papilles et l'esprit.",
+        "prix": 3
+      },
+      {
+        "nom": "Thé Blanc",
+        "description": "Un Thé Blanc délicat et floral, réputé pour sa douceur et sa subtilité, parfait pour les amateurs de saveurs légères.",
+        "prix": 4
+      }
+    ],
+    "Eau Minérale & Sodas": [
+      {
+        "nom": "Acqua Minerale",
+        "prix": 3
+      },
+      {
+        "nom": "San Pellegrino",
+        "prix": 4
+      },
+      {
+        "nom": "Acqua Panna",
+        "prix": 4
+      },
+      {
+        "nom": "Coca-Cola",
+        "prix": 3
+      },
+      {
+        "nom": "Sprite",
+        "prix": 3
+      },
+      {
+        "nom": "Fanta",
+        "prix": 3
+      }
+    ]
+  }
+}

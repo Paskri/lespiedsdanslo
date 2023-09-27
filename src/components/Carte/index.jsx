@@ -1,12 +1,15 @@
 import './carte.css'
+
 import { Dancing_Script } from 'next/font/google'
 const dScript = Dancing_Script({
   subsets: ['latin'],
   weight: ['400'],
 })
-import '../../../public/carte.json'
+
+import carte from '../../../public/carte.json'
+
 export default async function Carte() {
-  let error = null
+  /*let error = null
   let loading = true
   let carte = {}
   try {
@@ -20,7 +23,7 @@ export default async function Carte() {
   } catch (err) {
     error = err
     loading = false
-  }
+  }*/
   const menu = carte.menu
   const boissons = carte.boissons
   return (
