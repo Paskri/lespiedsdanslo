@@ -47,13 +47,13 @@ export default async function Carte() {
                     </div>
                     {menu[category].map((plat) => {
                       return (
-                        <>
+                        <div key={plat.nom}>
                           <h4 className={dScript.className}>{plat.nom}</h4>
                           <div className="plat-container">
                             <p className="description">{plat.description}</p>
                             <p className="tarif">{plat.prix} €</p>
                           </div>
-                        </>
+                        </div>
                       )
                     })}
                   </>
@@ -80,7 +80,7 @@ export default async function Carte() {
                     </div>
                     {boissons[category].map((boisson) => {
                       return (
-                        <>
+                        <div key={boisson.nom}>
                           <h4 className={dScript.className}>{boisson.nom}</h4>
                           <div className="plat-container">
                             <p className="description">{boisson.description}</p>
@@ -88,7 +88,7 @@ export default async function Carte() {
                               {boisson.prix || boisson.prix_bouteille} €
                             </p>
                           </div>
-                        </>
+                        </div>
                       )
                     })}
                   </>
@@ -101,9 +101,3 @@ export default async function Carte() {
     </section>
   )
 }
-/* category.map((plat) => (
-                <>
-                  {plat.nom}:{plat.description}
-                  {plat.prix}
-                </>
-              ))*/

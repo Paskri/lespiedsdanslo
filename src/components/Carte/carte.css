@@ -32,7 +32,7 @@
   width: 90%;
 }
 .tarif {
-  width: 10%;
+  width: 8%;
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 0;
@@ -54,5 +54,8 @@
     align-items: center;
     padding: 5% 0;
     margin-right: 8px;
+  }
+  .menu-left .tarif {
+    width: 10%;
   }
 }

@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 #chef .title {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 #chef p {
   font-size: 1.35rem;
@@ -70,7 +70,7 @@
 @media screen and (min-width: 800px) {
   #chef .text-left {
     width: 60%;
-    padding-left: 30px;
+    padding: 0 15px;
   }
   #chef .image {
     width: 40%;
